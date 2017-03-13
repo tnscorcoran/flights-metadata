@@ -19,6 +19,16 @@
       <groupId>net.3scale</groupId>
 	  <artifactId>javaPluginWrapper</artifactId>
 	  <version>0.0.2-SNAPSHOT</version>
+	  <scope>system</scope>
+      <systemPath>${project.basedir}/src/main/resources/javaPluginWrapper-0.0.2-SNAPSHOT.jar</systemPath>
+    </dependency>
+    
+   <dependency>
+      <groupId>net.3scale</groupId>
+	  <artifactId>3scale-api</artifactId>
+	  <version>3.0.4-SNAPSHOT</version>
+	  <scope>system</scope>
+      <systemPath>${project.basedir}/src/main/resources/3scale-api-3.0.4-SNAPSHOT.jar</systemPath>
     </dependency>
     
     <dependency>
